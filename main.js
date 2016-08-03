@@ -65,7 +65,7 @@ tabs.on('close', function(tab) {
 //is shaparak? func! WTF!!!
 function isShaparak(chekUrl, tab){
   var hostName = urls.URL(chekUrl).host;
-  if (hostName.match(/shaparak.ir/)) {
+  if (hostName.match(/\.shaparak\.ir$/i)) {
     showNotification(); //show notification for user
     verifierLogo(); //change button icon to verified
   }else{
