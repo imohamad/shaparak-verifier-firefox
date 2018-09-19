@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "Shaparak Verifier",
+  "version": "2.0",
+  "author": "MohamadReza Deylami",
+  "description": "Verify Shaparak gateways and protect users against phishing attacks",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  
+  "icons": {
+    "32": "assets/images/icons/icon_128.png",
+    "48": "assets/images/icons/icon_128.png",
+    "64": "assets/images/icons/icon_128.png",
+    "128": "assets/images/icons/icon_128.png"
+  },
+
+  "page_action": {
+    "default_icon": {
+      "32": "assets/images/icons/icon_128.png",
+      "48": "assets/images/icons/icon_128.png",
+      "64": "assets/images/icons/icon_128.png",
+      "128": "assets/images/icons/icon_128.png"
+    },
+    "default_title": "Shaparak Verifier",
+    "default_popup": "assets/data/popup.html"
+  },
+  "permissions": ["tabs"]
+}
