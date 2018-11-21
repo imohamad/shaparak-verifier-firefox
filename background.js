@@ -14,7 +14,7 @@ function enablePopup(tab) {
 function isShaparak(urlString) {
   try {
     let url = new URL(urlString);
-    return !!url.hostname.match(/\.shaparak\.ir$/i) && url.protocol == "https:";
+    return url.hostname.match(/\.shaparak\.ir$/i) && url.protocol == "https:";
   } catch (e) {
     return false;
   }
